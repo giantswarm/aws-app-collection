@@ -1,6 +1,5 @@
-# app-collection
+# aws-app-collection
 
-The app-collection repository is a helm chart which is used to deploy App CRs.
+This repository is a helm chart which holds a collection of App CRs.
 
-Everytime a change is made on the master branch this chart will be deployed to every installation.
-
+It is used to deploy applications to aws installations.
