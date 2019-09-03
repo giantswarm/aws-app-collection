@@ -1,6 +1,6 @@
 typemeta:
   kind: App
-  apiversion: v1alpha1
+  apiversion: application.giantswarm.io/v1alpha1
 objectmeta:
   name: aws-operator-2.0.0-2503231a9ad412fea427764cc208c915f2466f85
   generatename: ""
