@@ -14,6 +14,6 @@ spec:
       name: draughtsman-values-secret
   description: 'App Catalog for Control Plane apps releases.'
   storage:
-    URL: https://giantswarm.github.com/control-plane-catalog/
+    URL: https://giantswarm.github.com/control-plane-test-catalog/
     type: helm
   title: Control Plane Catalog
