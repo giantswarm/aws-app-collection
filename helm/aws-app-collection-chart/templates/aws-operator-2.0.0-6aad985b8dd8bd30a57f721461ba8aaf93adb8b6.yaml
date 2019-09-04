@@ -1,0 +1,16 @@
+apiVersion: application.giantswarm.io/v1alpha1
+kind: App
+metadata:
+  creationTimestamp: null
+  labels:
+    app-operator.giantswarm.io/version: 1.0.0
+  name: aws-operator-2.0.0-6aad985b8dd8bd30a57f721461ba8aaf93adb8b6
+  namespace: giantswarm
+spec:
+  catalog: control-plane-catalog
+  kubeConfig:
+    inCluster: true
+  name: aws-operator
+  namespace: giantswarm
+  version: 2.0.0-6aad985b8dd8bd30a57f721461ba8aaf93adb8b6
+status: {}
