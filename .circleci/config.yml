@@ -12,7 +12,7 @@ jobs:
 
     - deploy:
         command: |
-          ./architect deploy
+          ./architect deploy --group testing
 
 workflows:
   version: 2
