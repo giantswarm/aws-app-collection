@@ -6,7 +6,7 @@ metadata:
   creationTimestamp: null
   labels:
     app-operator.giantswarm.io/version: 0.0.0
-  name: opa-mutator-app-1.0.2
+  name: opa-mutator-app-unique
   namespace: giantswarm
 spec:
   catalog: control-plane-catalog
@@ -33,7 +33,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 1.0.2
+  version: 1.0.0
 status:
   appVersion: ""
   release:
