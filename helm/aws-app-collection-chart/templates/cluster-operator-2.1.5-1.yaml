@@ -6,7 +6,7 @@ metadata:
   creationTimestamp: null
   labels:
     app-operator.giantswarm.io/version: 0.0.0
-  name: cluster-operator-2.1.5
+  name: cluster-operator-2.1.5-1
   namespace: giantswarm
 spec:
   catalog: control-plane-catalog
@@ -33,7 +33,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 2.1.5
+  version: 2.1.5-1
 status:
   appVersion: ""
   release:
