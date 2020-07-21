@@ -3,16 +3,16 @@ jobs:
   build:
     machine: true
     steps:
-    - checkout
-
-    - run: |
-        wget -q $(curl -sS -H "Authorization: token $RELEASE_TOKEN" https://api.github.com/repos/giantswarm/architect/releases/tags/v1.1.0 | grep browser_download_url | head -n 1 | cut -d '"' -f 4)
-        chmod +x ./architect
-        ./architect version
-
-    - deploy:
-        command: |
-          ./architect deploy
+      - checkout
+      - run:
+          name: Download architect
+          command: |
+            curl -fsSL https://github.com/giantswarm/architect/releases/download/v2.1.0/architect-v2.1.0-linux-amd64.tar.gz | tar -xzv --strip-components 1 '*/architect'
+            ./architect version
+      - run:
+          name: Deploy
+          command: |
+            ./architect deploy
 
 workflows:
   version: 2
