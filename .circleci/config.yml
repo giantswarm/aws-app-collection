@@ -32,6 +32,7 @@ jobs:
             docker run --rm -v /home/circleci/.cnr:/root/.cnr/ -v /home/circleci/project/helm/${project}-chart:/home/circleci/project/helm/${project}-chart -w /home/circleci/project/helm/${project}-chart ${image} registry push --channel=stable --namespace=giantswarm quay.io
       - run:
           name: Deploy
+          command: |
             ./architect legacy deploy
 
 workflows:
