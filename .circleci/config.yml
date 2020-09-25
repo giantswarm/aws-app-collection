@@ -42,17 +42,4 @@ workflows:
       - build:
           filters:
             branches:
-              #only: master
-              ## REVERT
-              ## REVERT
-              ## REVERT
-              ## REVERT
-              ## REVERT
-              ## REVERT
-              ## REVERT
-              only: fix-build
-              ## REVERT
-              ## REVERT
-              ## REVERT
-              ## REVERT
-              ## REVERT
+              only: master
