@@ -13,7 +13,7 @@ jobs:
       - run:
           name: Template helm chart
           command: |
-            architect helm template
+            ./architect helm template
       - run:
           name: Pull docker-helm image
           command: |
