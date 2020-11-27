@@ -29,9 +29,9 @@ spec:
       name: vertical-pod-autoscaler
       namespace: giantswarm
     secret:
-      name: -o
-      namespace: giantswarm
-  version: 0.0.0-42250e50835fb4e3b2950123885f1f086627ca39
+      name: ""
+      namespace: ""
+  version: 0.0.0-40bfff67329a84045092ba1268df864bc5ff97a3
 status:
   appVersion: ""
   release:
