@@ -2,10 +2,11 @@ apiVersion: application.giantswarm.io/v1alpha1
 kind: App
 metadata:
   annotations:
-    chart-operator.giantswarm.io/force-helm-upgrade: "true" 
+    chart-operator.giantswarm.io/force-helm-upgrade: "true"
   creationTimestamp: null
   labels:
     app-operator.giantswarm.io/version: 0.0.0
+    config-controller.giantswarm.io/version: 0.0.0
   name: app-exporter-unique
   namespace: giantswarm
 spec:
@@ -33,7 +34,7 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.2.1
+  version: 0.3.0
 status:
   appVersion: ""
   release:
