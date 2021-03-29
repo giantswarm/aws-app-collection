@@ -27,7 +27,7 @@ spec:
   namespace: giantswarm
   userConfig:
     configMap:
-      name: vertical-pod-autoscaler
+      name: vertical-pod-autoscaler-user-values
       namespace: giantswarm
     secret:
       name: ""
