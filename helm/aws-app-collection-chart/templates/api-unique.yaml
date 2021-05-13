@@ -27,6 +27,7 @@ spec:
       namespace: ""
   name: api
   namespace: giantswarm
+  namespaceConfig: {}
   userConfig:
     configMap:
       name: ""
@@ -34,10 +35,4 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 1.27.0
-status:
-  appVersion: ""
-  release:
-    lastDeployed: null
-    status: ""
-  version: ""
+  version: 1.27.0-081b17e5a58f88f517e924f2508adf8edd5cea7e
