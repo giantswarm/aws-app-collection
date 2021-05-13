@@ -34,9 +34,4 @@ spec:
       name: ""
       namespace: ""
   version: 1.0.0
-status:
-  appVersion: ""
-  release:
-    lastDeployed: null
-    status: ""
-  version: ""
+
