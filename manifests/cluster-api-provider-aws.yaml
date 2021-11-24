@@ -17,7 +17,7 @@ spec:
       - name: KONFIGURE_APP_NAME
         value: cluster-api-provider-aws
       - name: KONFIGURE_APP_VERSION
-        value: 0.6.8-gs9
+        value: 0.6.8-gs10
       - name: KONFIGURE_APP_CATALOG
         value: control-plane-catalog
       name: konfigure
