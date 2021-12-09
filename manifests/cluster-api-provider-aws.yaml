@@ -17,7 +17,7 @@ spec:
       - name: KONFIGURE_APP_NAME
         value: cluster-api-provider-aws
       - name: KONFIGURE_APP_VERSION
-        value: 1.2.0-gsalphatest.4
+        value: 1.2.0-gsalphatest.5
       - name: KONFIGURE_APP_CATALOG
         value: control-plane-catalog
       name: konfigure
