@@ -17,7 +17,7 @@ spec:
       - name: KONFIGURE_APP_NAME
         value: releases-aws
       - name: KONFIGURE_APP_VERSION
-        value: 0.0.0-c7cfbd48c424884ab313693e3cfd09437a245305
+        value: 0.0.0-4ae4f8f519a39bf4c8ed3763a24ac9d7a29c3f6d
       - name: KONFIGURE_APP_CATALOG
         value: releases
       name: konfigure
