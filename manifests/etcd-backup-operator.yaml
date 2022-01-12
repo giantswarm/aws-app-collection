@@ -1,30 +1,13 @@
-apiVersion: argoproj.io/v1alpha1
-kind: Application
+api_version: generators.giantswarm.io/v1
+app_catalog: control-plane-catalog
+app_destination_namespace: giantswarm
+app_name: etcd-backup-operator
+app_version: 2.7.0
+kind: Konfigure
 metadata:
-  finalizers:
-  - resources-finalizer.argocd.argoproj.io
+  annotations:
+    config.kubernetes.io/function: |-
+      exec:
+        path: /plugins/konfigure
   name: etcd-backup-operator
-  namespace: argocd
-spec:
-  destination:
-    namespace: giantswarm
-    server: https://kubernetes.default.svc
-  project: collections
-  source:
-    path: .
-    plugin:
-      env:
-      - name: KONFIGURE_APP_NAME
-        value: etcd-backup-operator
-      - name: KONFIGURE_APP_VERSION
-        value: 2.7.0
-      - name: KONFIGURE_APP_CATALOG
-        value: control-plane-catalog
-      name: konfigure
-    repoURL: https://github.com/giantswarm/config.git
-    targetRevision: v1
-  syncPolicy:
-    automated:
-      allowEmpty: false
-      prune: true
-      selfHeal: true
+name: etcd-backup-operator

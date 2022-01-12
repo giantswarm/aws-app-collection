@@ -1,28 +1,13 @@
-apiVersion: argoproj.io/v1alpha1
-kind: Application
+api_version: generators.giantswarm.io/v1
+app_catalog: control-plane-catalog
+app_destination_namespace: monitoring
+app_name: net-exporter
+app_version: 1.10.3
+kind: Konfigure
 metadata:
+  annotations:
+    config.kubernetes.io/function: |-
+      exec:
+        path: /plugins/konfigure
   name: net-exporter
-  namespace: argocd
-spec:
-  destination:
-    namespace: monitoring
-    server: https://kubernetes.default.svc
-  project: collections
-  source:
-    path: .
-    plugin:
-      env:
-      - name: KONFIGURE_APP_NAME
-        value: net-exporter
-      - name: KONFIGURE_APP_VERSION
-        value: 1.10.3
-      - name: KONFIGURE_APP_CATALOG
-        value: control-plane-catalog
-      name: konfigure
-    repoURL: https://github.com/giantswarm/config.git
-    targetRevision: v1
-  syncPolicy:
-    automated:
-      allowEmpty: true
-      prune: true
-      selfHeal: true
+name: net-exporter
