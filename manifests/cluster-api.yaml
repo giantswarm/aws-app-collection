@@ -17,7 +17,7 @@ spec:
       - name: KONFIGURE_APP_NAME
         value: cluster-api
       - name: KONFIGURE_APP_VERSION
-        value: 0.3.0-alpha.9-8f35ff3f476795760c3560c8d3b56c04de128797
+        value: 0.3.0-alpha.9-cdce0083bf70c2a65c7d75683a276a950f6c1c1b
       - name: KONFIGURE_APP_CATALOG
         value: control-plane-test-catalog
       name: konfigure
