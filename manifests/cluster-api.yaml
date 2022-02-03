@@ -22,7 +22,7 @@ spec:
         value: control-plane-test-catalog
       name: konfigure
     repoURL: https://github.com/giantswarm/config.git
-    targetRevision: update-cluster-api-app
+    targetRevision: v1
   syncPolicy:
     automated:
       allowEmpty: false
