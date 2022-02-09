@@ -3,7 +3,7 @@ kind: Application
 metadata:
   finalizers:
   - resources-finalizer.argocd.argoproj.io
-  name: rbac-operator
+  name: encryption-provider-operator
   namespace: argocd
 spec:
   destination:
@@ -15,9 +15,9 @@ spec:
     plugin:
       env:
       - name: KONFIGURE_APP_NAME
-        value: rbac-operator
+        value: encryption-provider-operator
       - name: KONFIGURE_APP_VERSION
-        value: 0.20.0
+        value: 0.1.0
       - name: KONFIGURE_APP_CATALOG
         value: control-plane-catalog
       name: konfigure
