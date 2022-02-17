@@ -8,8 +8,8 @@ generators:
 - cert-exporter.yaml
 - cert-manager-app.yaml
 - chart-operator.yaml
-- cluster-api.yaml
 - cluster-api-provider-aws.yaml
+- cluster-api.yaml
 - cluster-autoscaler-app.yaml
 - cluster-service.yaml
 - config-controller.yaml
