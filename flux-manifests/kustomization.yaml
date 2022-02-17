@@ -8,9 +8,7 @@ generators:
 - cert-exporter.yaml
 - cert-manager-app.yaml
 - chart-operator.yaml
-- cluster-api-bootstrap-provider-kubeadm.yaml
-- cluster-api-control-plane.yaml
-- cluster-api-core.yaml
+- cluster-api.yaml
 - cluster-api-provider-aws.yaml
 - cluster-autoscaler-app.yaml
 - cluster-service.yaml
