@@ -3,7 +3,7 @@ kind: Application
 metadata:
   finalizers:
   - resources-finalizer.argocd.argoproj.io
-  name: cluster-api-bootstrap-provider-kubeadm
+  name: cluster-api
   namespace: argocd
 spec:
   destination:
@@ -15,9 +15,9 @@ spec:
     plugin:
       env:
       - name: KONFIGURE_APP_NAME
-        value: cluster-api-bootstrap-provider-kubeadm
+        value: cluster-api
       - name: KONFIGURE_APP_VERSION
-        value: 0.3.22-gs10-crd
+        value: 0.3.0
       - name: KONFIGURE_APP_CATALOG
         value: control-plane-catalog
       name: konfigure
