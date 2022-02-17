@@ -19,7 +19,7 @@ spec:
       - name: KONFIGURE_APP_VERSION
         value: 0.6.3
       - name: KONFIGURE_APP_CATALOG
-        value: control-plane-test-catalog
+        value: control-plane-catalog
       name: konfigure
     repoURL: https://github.com/giantswarm/config.git
     targetRevision: v1
