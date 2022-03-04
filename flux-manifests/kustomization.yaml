@@ -5,7 +5,6 @@ generators:
 - athena.yaml
 - aws-admission-controller.yaml
 - aws-collector.yaml
-- capa-iam-operator.yaml
 - cert-exporter.yaml
 - cert-manager-app.yaml
 - chart-operator.yaml
