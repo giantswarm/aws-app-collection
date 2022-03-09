@@ -25,6 +25,7 @@ generators:
 - g8s-grafana.yaml
 - g8s-prometheus.yaml
 - happa.yaml
+- irsa-operator.yaml
 - kube-state-metrics-app.yaml
 - kyverno.yaml
 - macropower-analytics-panel-server.yaml
