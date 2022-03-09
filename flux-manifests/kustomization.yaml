@@ -10,6 +10,7 @@ generators:
 - chart-operator.yaml
 - cluster-api-provider-aws.yaml
 - cluster-api.yaml
+- cluster-apps-operator.yaml
 - cluster-autoscaler-app.yaml
 - cluster-service.yaml
 - config-controller.yaml
