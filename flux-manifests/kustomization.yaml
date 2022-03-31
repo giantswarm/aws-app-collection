@@ -27,6 +27,7 @@ generators:
 - happa.yaml
 - irsa-operator.yaml
 - kube-state-metrics-app.yaml
+- kyverno-policies-observability.yaml
 - kyverno.yaml
 - macropower-analytics-panel-server.yaml
 - management-cluster-admission.yaml
