@@ -5,6 +5,7 @@ generators:
 - athena.yaml
 - aws-admission-controller.yaml
 - aws-collector.yaml
+- aws-servicequotas-operator.yaml
 - aws-tccpf-watchdog.yaml
 - cert-exporter.yaml
 - cert-manager-app.yaml
