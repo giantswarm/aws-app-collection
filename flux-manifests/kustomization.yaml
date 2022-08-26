@@ -52,7 +52,6 @@ generators:
 - releases-aws.yaml
 - route53-manager.yaml
 - silence-operator.yaml
-- starboard-app.yaml
 - starboard-exporter.yaml
 - trivy-app.yaml
 - upgrade-schedule-operator.yaml
