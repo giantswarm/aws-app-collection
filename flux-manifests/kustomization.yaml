@@ -62,5 +62,3 @@ generators:
 - vault-exporter.yaml
 - vertical-pod-autoscaler-app.yaml
 - vertical-pod-autoscaler-crd.yaml
-patchesStrategicMerge:
-- patches/patch_kyverno_timeout.yaml
