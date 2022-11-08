@@ -57,6 +57,7 @@ generators:
 - silence-operator.yaml
 - starboard-exporter.yaml
 - trivy-operator.yaml
+- trivy.yaml
 - upgrade-schedule-operator.yaml
 - vault-exporter.yaml
 - vertical-pod-autoscaler-app.yaml
