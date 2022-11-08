@@ -56,7 +56,6 @@ generators:
 - route53-manager.yaml
 - silence-operator.yaml
 - starboard-exporter.yaml
-- trivy-app.yaml
 - trivy-operator.yaml
 - upgrade-schedule-operator.yaml
 - vault-exporter.yaml
