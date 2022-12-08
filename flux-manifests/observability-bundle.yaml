@@ -1,0 +1,13 @@
+api_version: generators.giantswarm.io/v1
+app_catalog: default-test
+app_destination_namespace: giantswarm
+app_name: observability-bundle
+app_version: 0.1.4-cfbd6a95ccb777c8e3d2cce00bc163a38004649d
+kind: Konfigure
+metadata:
+  annotations:
+    config.kubernetes.io/function: |-
+      exec:
+        path: /plugins/konfigure
+  name: observability-bundle
+name: observability-bundle

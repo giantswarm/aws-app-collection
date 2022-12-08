@@ -1,13 +1,13 @@
 api_version: generators.giantswarm.io/v1
-app_catalog: default-test-catalog
-app_destination_namespace: giantswarm
-app_name: observability-bundle
-app_version: 0.1.4-8e479e469b8a50a7b2b39aae34cb7bb4c3032736
+app_catalog: control-plane-catalog
+app_destination_namespace: monitoring
+app_name: oauth2-proxy
+app_version: 2.7.1
 kind: Konfigure
 metadata:
   annotations:
     config.kubernetes.io/function: |-
       exec:
         path: /plugins/konfigure
-  name: observability-bundle
-name: observability-bundle
+  name: oauth2-proxy
+name: oauth2-proxy
