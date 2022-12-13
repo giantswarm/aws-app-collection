@@ -45,7 +45,6 @@ generators:
 - node-exporter-app.yaml
 - node-operator.yaml
 - oauth2-proxy.yaml
-- observability-bundle.yaml
 - organization-operator.yaml
 - prometheus-meta-operator.yaml
 - prometheus-remotewrite.yaml
