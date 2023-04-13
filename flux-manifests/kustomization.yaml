@@ -31,7 +31,6 @@ generators:
 - happa.yaml
 - irsa-operator.yaml
 - k8s-audit-metrics.yaml
-- kube-state-metrics.yaml
 - kyverno-policies-dx.yaml
 - kyverno-policies-observability.yaml
 - kyverno-policies-ux.yaml
