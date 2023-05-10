@@ -55,6 +55,7 @@ generators:
 - route53-manager.yaml
 - silence-operator.yaml
 - sloth.yaml
+- sloth-rules.yaml
 - starboard-exporter.yaml
 - trivy-operator.yaml
 - trivy.yaml
