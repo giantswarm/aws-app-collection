@@ -56,7 +56,6 @@ generators:
 - silence-operator.yaml
 - sloth-rules.yaml
 - sloth.yaml
-- sloth-rules.yaml
 - starboard-exporter.yaml
 - trivy-operator.yaml
 - trivy.yaml
