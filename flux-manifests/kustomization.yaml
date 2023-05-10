@@ -54,6 +54,7 @@ generators:
 - releases-aws.yaml
 - route53-manager.yaml
 - silence-operator.yaml
+- sloth-rules.yaml
 - sloth.yaml
 - starboard-exporter.yaml
 - trivy-operator.yaml
