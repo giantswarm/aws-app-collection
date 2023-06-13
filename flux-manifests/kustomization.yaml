@@ -36,6 +36,7 @@ generators:
 - kyverno-policies-ux.yaml
 - kyverno-policies.yaml
 - kyverno.yaml
+- loki.yaml
 - macropower-analytics-panel-server.yaml
 - management-cluster-admission.yaml
 - metrics-server-app.yaml
