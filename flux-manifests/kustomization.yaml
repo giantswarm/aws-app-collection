@@ -41,6 +41,7 @@ generators:
 - logging-operator.yaml
 - loki.yaml
 - macropower-analytics-panel-server.yaml
+- memcached.yaml
 - metrics-server-app.yaml
 - net-exporter.yaml
 - node-exporter-app.yaml
