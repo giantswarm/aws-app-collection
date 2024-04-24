@@ -62,7 +62,6 @@ generators:
 - sloth-rules.yaml
 - sloth.yaml
 - starboard-exporter.yaml
-- teleport-tbot-app.yaml
 - tempo.yaml
 - trivy-operator.yaml
 - trivy.yaml
