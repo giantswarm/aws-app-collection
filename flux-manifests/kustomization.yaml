@@ -23,6 +23,7 @@ generators:
 - dex-app.yaml
 - dex-operator.yaml
 - dipstick.yaml
+- edgedb.yaml
 - encryption-provider-operator.yaml
 - etcd-backup-operator.yaml
 - etcd-kubernetes-resources-count-exporter.yaml
@@ -58,6 +59,7 @@ generators:
 - rbac-operator.yaml
 - release-operator.yaml
 - releases-aws.yaml
+- reports-server.yaml
 - route53-manager.yaml
 - silence-operator.yaml
 - sloth-rules.yaml
