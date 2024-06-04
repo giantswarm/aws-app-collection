@@ -12,6 +12,7 @@ generators:
 - cert-manager-app.yaml
 - cert-operator.yaml
 - chart-operator.yaml
+- cloudnative-pg.yaml
 - cluster-api.yaml
 - cluster-apps-operator.yaml
 - cluster-autoscaler-app.yaml
