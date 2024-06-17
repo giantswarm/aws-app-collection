@@ -43,7 +43,6 @@ generators:
 - kyverno.yaml
 - logging-operator.yaml
 - loki.yaml
-- macropower-analytics-panel-server.yaml
 - metrics-server-app.yaml
 - net-exporter.yaml
 - node-exporter-app.yaml
