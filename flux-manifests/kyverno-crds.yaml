@@ -1,6 +1,6 @@
 api_version: generators.giantswarm.io/v1
 app_catalog: control-plane-catalog
-app_destination_namespace: kyverno-crds
+app_destination_namespace: kyverno
 app_name: kyverno-crds
 app_version: 1.11.1
 kind: Konfigure
