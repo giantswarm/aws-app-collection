@@ -31,8 +31,8 @@ generators:
 - exception-recommender.yaml
 - falco.yaml
 - fluent-logshipping-app.yaml
-- grafana.yaml
 - grafana-multi-tenant-proxy.yaml
+- grafana.yaml
 - happa.yaml
 - irsa-operator.yaml
 - k8s-audit-metrics.yaml
