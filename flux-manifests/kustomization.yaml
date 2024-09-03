@@ -32,6 +32,7 @@ generators:
 - falco.yaml
 - fluent-logshipping-app.yaml
 - grafana.yaml
+- grafana-multi-tenant-proxy.yaml
 - happa.yaml
 - irsa-operator.yaml
 - k8s-audit-metrics.yaml
